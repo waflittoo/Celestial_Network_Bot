@@ -24,7 +24,7 @@ class InfoCommand(commands.Cog):
             info_embed.add_field(name="Puerto (Bedrock)", value=data['info_cmd']['port'], inline=False)
             info_embed.add_field(name="Modalidades", value=modalidades, inline=True)
             info_embed.add_field(name="Tienda", value=data['info_cmd']['store'], inline=True)
-            info_embed.add_field(name="Comandos de bot", value=comandos, inline=True)
+            info_embed.add_field(name="Comandos de bot", value=comandos, inline=False)
         print(f"-----\n{interaction.user.display_name} Executed command: /info\n-----")
         await interaction.response.send_message(embed=info_embed, ephemeral=True)
 

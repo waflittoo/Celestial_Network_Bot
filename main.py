@@ -1,7 +1,6 @@
 import os
 import discord
 from settings import *
-# from mongoengine import *
 from discord.ext import commands
 from discord.ext.commands import CommandNotFound
 
@@ -23,7 +22,7 @@ class Main(commands.Bot):
     async def on_ready(self):
         await self.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.playing, name="/info"))
         print(f"{self.user} has connected to Discord!")
-    
+
     async def on_command_error(self, ctx, error):
         if isinstance(error, CommandNotFound):
             print("WaffBot.main_py.L3: Command not found")
