@@ -1,0 +1,13 @@
+# ----- Server info
+info_cmd:
+  name: "Celestial Network"
+  version: "1.20.*"
+  ip: "¡Muy pronto!"
+  port: "¡Muy Pronto!"
+  state: "En desarrollo"
+  games:
+  - "Survival (En desarrollo)"
+  - "BoxPvP (En desarrollo)"
+  store: "En desarrollo"
+  comands:
+  - "/rangos"

@@ -1,0 +1,12 @@
+# Formato a seguir
+# message:
+#   fields:
+#     <nombre>
+#       title: ''
+#       value:
+#       - 'options'
+#       - 'options'
+#       - 'options'
+#       - 'options'
+#       - 'options'
+#       inline: True/False
